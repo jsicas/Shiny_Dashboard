@@ -1,7 +1,7 @@
 Aplicação Shiny: Brasil por Estado e Regiões
 ================
 
-# shiny
+# Shiny
 
 Recursos:
 
@@ -132,10 +132,8 @@ carregados:
 ## **Funcionalidades Adicionais**
 
 - **Mensagens de Feedback**:
-  - Arquivos CSV válidos:
-    - Botão pisca **verde** e uma mensagem de sucesso é exibida.
-  - Arquivos inválidos:
-    - Botão pisca **vermelho** e uma mensagem de erro é exibida.
+  - Arquivos CSV válidos: Botão pisca **verde** e uma mensagem de sucesso é exibida.
+  - Arquivos inválidos: Botão pisca **vermelho** e uma mensagem de erro é exibida.
 - **Confirmação para Sobrescrita**:
   - Ao tentar carregar o banco de dados exemplo sobre dados já
     carregados, uma mensagem de confirmação é exibida.
@@ -143,4 +141,4 @@ carregados:
 ## **Acesso**
 
 A aplicação está disponível no ShinyApps.io no seguinte link:
-<https://jsicas.shinyapps.io/shiny/>
+<https://jsicas.shinyapps.io/shiny/>.
