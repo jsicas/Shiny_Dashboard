@@ -5,13 +5,13 @@ Aplicação Shiny: Brasil por Estado e Regiões
 
 Recursos:
 
-- pasta `./data/` apresenta 3 bancos de dados `banco_exemplo.csv` (é ele
+- Pasta `./data/` apresenta 3 bancos de dados `banco_exemplo.csv` (é ele
   que é carregado ao apertar no botão `carregar exemplo`),
   `banco_não_csv.tsv` (banco utilziado para validar o que ocorre ao
   tentar carregar aquivo que não é csv) e `banco_de_dados.csv` (uma
   alternativa de banco de dados, como se fosse o banco de dados da
   pessoa);
-- tabela inicial (generalizar valores por meio do YAML)
+- Tabela inicial (generalizar valores por meio do YAML)
 - Gráfico de mapa;
 - Precisa ter uma coluna com o código do estado chamada `code_state` e
   `code_region` (generalizar por meio do YAML);
@@ -33,7 +33,7 @@ Recursos:
   ignoradas no selectInput e `configuracoes_iniciais.R` que carrega
   todos os pacotes necessários, lê o arquivo de configurações e
   pre-carrega os mapas para gerar o gráfico de mapa mais rápido.
-- no arquivo yaml deve ser passado qual coluna tem a informação do
+- Arquivo yaml deve ser passado qual coluna tem a informação do
   código do estado, padrão é code_state;
 
 # **Introdução**
