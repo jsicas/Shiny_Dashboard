@@ -1,5 +1,5 @@
 ---
-title: "README - Aplicação Shiny: Brasil por Estado e Regiões"
+title: "Aplicação Shiny: Brasil por Estado e Regiões"
 output: github_document
 ---
 

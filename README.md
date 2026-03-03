@@ -1,4 +1,4 @@
-README - Aplicação Shiny: Brasil por Estado e Regiões
+Aplicação Shiny: Brasil por Estado e Regiões
 ================
 
 <div align="justify">
