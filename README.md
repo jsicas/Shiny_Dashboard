@@ -38,7 +38,7 @@ Recursos:
 
 # **Introdução**
 
-A aplicação `nome` foi desenvolvida utilizando o framework Shiny, com o
+A aplicação foi desenvolvida utilizando o framework Shiny, com o
 objetivo de realizar a análise e visualização de dados relacionados às
 unidades federativas brasileiras. Ela permite que o usuário carregue
 seus próprios bancos de dados e visualize as informações através de
@@ -49,7 +49,7 @@ aplicadas a todas as visualizações de forma integrada.
 ## **Mapa**
 
 O mapa do Brasil foi pré-carregado através do pacote `geobr` e
-armazenado na pasta `./grafico` para otimizar o tempo de inicialização
+armazenado na pasta `grafico/` para otimizar o tempo de inicialização
 da aplicação, uma vez que a instalação do pacote pode ser demorada. Esse
 pré-carregamento permite que a geração de mapas seja rápida e eficiente,
 mesmo em ambientes com restrições de desempenho.
@@ -72,13 +72,13 @@ mesmo em ambientes com restrições de desempenho.
 
 - O nome das colunas obrigatórias (`code_state` e `code_region`) podem
   ser alterado no arquivo `config.yaml`, localizado na pasta
-  `./configuracoes`.
+  `configuracoes/`.
 - Colunas adicionais que não sejam relevantes para as análises podem ser
   ignoradas ao serem listadas no mesmo arquivo `config.yaml`.
 
 ### **Bancos de Dados de Exemplo**
 
-Quatro bancos de dados são disponibilizados na pasta `./data`:
+Quatro bancos de dados são disponibilizados na pasta `data/`:
 
 1.  **`banco_exemplo.csv`**: Carregado ao clicar no botão
     `Carregar exemplo`.
@@ -88,7 +88,7 @@ Quatro bancos de dados são disponibilizados na pasta `./data`:
     uso do usuário.
 4.  **`banco_teste_code_region.csv`**: Usado para testar a mudança de
     nome da variável `code_state` para `code`, com a devida atualização
-    feita no arquivo `./configuracoes/config.yaml`.
+    feita no arquivo `configuracoes/config.yaml`.
 
 > Nota: Os gráficos e tabela da aplicação só serão exibidas após o
 > carregamento bem-sucedido de um banco de dados.
