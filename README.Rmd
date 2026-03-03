@@ -30,7 +30,7 @@ knitr::opts_chunk$set(
 
 # **Introdução**
 
-A aplicação foi desenvolvida utilizando o framework Shiny, disponibilizada em [ShinyApps.io](https://jsicas.shinyapps.io/shiny/). O objetivo é possibilitar a análise e visualização de dados relacionados às unidades federativas brasileiras por meio de tabelas, gráficos e mapas interativos. Além disso, a aplicação oferece funcionalidades de filtragem por região e seleção de variáveis, aplicadas a todas as visualizações de forma integrada.
+A aplicação foi desenvolvida utilizando o framework Shiny, disponível em [ShinyApps.io](https://jsicas.shinyapps.io/shiny/). O objetivo é possibilitar a análise e visualização de dados relacionados às unidades federativas brasileiras por meio de tabelas, gráficos e mapas interativos. Além disso, a aplicação oferece funcionalidades de filtragem por região e seleção de variáveis, aplicadas a todas as visualizações de forma integrada.
 
 ## **Mapa**
 

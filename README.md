@@ -33,19 +33,19 @@ README - Aplicação Shiny: Brasil por Estado e Regiões
 
 # **Introdução**
 
-A aplicação foi desenvolvida utilizando o framework Shiny,
-disponibilizada em [ShinyApps.io](https://jsicas.shinyapps.io/shiny/). O
-objetivo é possibilitar a análise e visualização de dados relacionados
-às unidades federativas brasileiras por meio de tabelas, gráficos e
-mapas interativos. Além disso, a aplicação oferece funcionalidades de
+A aplicação foi desenvolvida utilizando o framework Shiny, disponível em
+[ShinyApps.io](https://jsicas.shinyapps.io/shiny/). O objetivo é
+possibilitar a análise e visualização de dados relacionados às unidades
+federativas brasileiras por meio de tabelas, gráficos e mapas
+interativos. Além disso, a aplicação oferece funcionalidades de
 filtragem por região e seleção de variáveis, aplicadas a todas as
 visualizações de forma integrada.
 
 ## **Mapa**
 
 O mapa do Brasil foi pré-carregado através do pacote `geobr` e
-armazenado na pasta `.grafico/` para otimizar o tempo de inicialização
-da aplicação, uma vez que seu download pode ser demorado. Esse
+armazenado na pasta `grafico/` para otimizar o tempo de inicialização da
+aplicação, uma vez que seu download pode ser demorado. Esse
 pré-carregamento permite que a geração de mapas seja rápida e eficiente,
 mesmo em ambientes com restrições de desempenho.
 
