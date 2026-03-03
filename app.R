@@ -1,4 +1,4 @@
-# Adicionar source
+# executando configurações iniciais
 source('configuracoes/configuracoes_iniciais.R')
 
 ui <- page_sidebar(
