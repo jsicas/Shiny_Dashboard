@@ -1,5 +1,5 @@
 ---
-title: "Aplicação Shiny: Brasil por Estado e Regiões"
+title: "Shiny Dashboard: Brasil por Estados e Regiões"
 output: github_document
 ---
 
@@ -10,8 +10,6 @@ knitr::opts_chunk$set(
 )
 ```
 <div align="justify">
-
-# Shiny
 
 <!-- Recursos: -->
 

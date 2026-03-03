@@ -1,9 +1,7 @@
-Aplicação Shiny: Brasil por Estado e Regiões
+Shiny Dashboard: Brasil por Estados e Regiões
 ================
 
 <div align="justify">
-
-# Shiny
 
 <!-- Recursos: -->
 
