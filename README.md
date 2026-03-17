@@ -29,6 +29,11 @@ Shiny Dashboard: Brasil por Estados e Regiões
 
 <!-- - no arquivo yaml deve ser passado qual coluna tem a informação do código do estado, padrão é code_state; -->
 
+<p align="center">
+
+<img src="resultado.gif"/>
+</p>
+
 # **Introdução**
 
 A aplicação foi desenvolvida utilizando o framework Shiny, disponível em

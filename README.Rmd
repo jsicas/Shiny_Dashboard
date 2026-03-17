@@ -26,6 +26,12 @@ knitr::opts_chunk$set(
 <!-- - `configuracoes/` tem dois arquivos `config.yaml` responsável por passar algumas configurações adicionais, como colunas a serem ignoradas no selectInput e `configuracoes_iniciais.R` que carrega todos os pacotes necessários, lê o arquivo de configurações e pre-carrega os mapas para gerar o gráfico de mapa mais rápido.  -->
 <!-- - no arquivo yaml deve ser passado qual coluna tem a informação do código do estado, padrão é code_state; -->
 
+
+<p align="center">
+  <img src="resultado.gif"/>
+</p>
+
+
 # **Introdução**
 
 A aplicação foi desenvolvida utilizando o framework Shiny, disponível em [ShinyApps.io](https://jsicas.shinyapps.io/shiny/). O objetivo é possibilitar a análise e visualização de dados relacionados às unidades federativas brasileiras por meio de tabelas, gráficos e mapas interativos. Além disso, a aplicação oferece funcionalidades de filtragem por região e seleção de variáveis, aplicadas a todas as visualizações de forma integrada.
