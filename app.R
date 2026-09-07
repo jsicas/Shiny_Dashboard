@@ -114,12 +114,14 @@ server <- function(input, output, session) {
   
   grafico_analise <- reactive(
     switch(input$tipo_grafico,
-           'Histograma' = dados() |> filter(code_region %in% a()) |>
+           'Histograma' = dados() |>
+             filter(code_region %in% a()) |>
              ggplot(aes(x = !!sym(input$variavel))) +
              geom_histogram(col='black', fill='turquoise') +
              labs(y = 'Contagem') +
              tema,
            'Boxplot' = dados() |>
+             filter(code_region %in% a()) |>
              ggplot(aes(x = !!sym(input$variavel))) +
              geom_boxplot(col='white', fill='darkturquoise') +
              tema +
