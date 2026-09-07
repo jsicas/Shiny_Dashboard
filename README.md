@@ -36,7 +36,7 @@ Shiny Dashboard: Brasil por Estados e Regiões
 
 # **Introdução**
 
-A aplicação foi desenvolvida utilizando o _framework_ Shiny, e está disponível online em
+A aplicação foi desenvolvida utilizando o _framework_ Shiny, disponível online em
 [ShinyApps.io](https://jsicas.shinyapps.io/shiny/). O objetivo é
 possibilitar a análise e visualização de dados relacionados às unidades
 federativas brasileiras por meio de tabelas, gráficos e mapas
